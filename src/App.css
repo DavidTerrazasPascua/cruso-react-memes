@@ -1,4 +1,5 @@
 .App {
+  background-color: black;
   text-align: center;
 }
 
@@ -35,4 +36,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+.meme {
+  display: flex;
+  justify-content: center;
+}
+.meme span {
+  position: absolute;
+  margin-top: 30px;
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 0 #070505, -2px 0 #131212, 0 2px #0b0b0b, 0 -2px #070606,
+  1px 1px #040303, -1px -1px #060606, 1px -1px #0c0b0b, -1px 1px #0c0b0b;
+}
+
+.meme span:nth-child(3) { 
+ position: absolute;
+ margin-top: 350px;
+}
+.meme img{
+  width:100% ;
 }
